@@ -1,2 +1,77 @@
 
 /* Your CSS Code here. */
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: ##f4f7f6;
+	min-height: 100vh;
+	margin: 0
+}
+
+form {
+	background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+#name,
+#phone,
+#address {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #333;
+	border-radius: 4px;
+	font-size: 14px;
+	box-sizing: border-box;
+	transition: border-color 0.3s ease;
+}
+
+#name:focus,
+#phone:focus,
+#address:focus,
+#multiSelect:focus {
+	border-color: #4abc96;
+	outline: none
+}
+
+#checkbox {
+	margin-right: 8px;
+    margin-bottom: 20px;
+    transform: scale(1.1);
+}
+
+#multiSelect {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	box-shadow: border-box;
+	font-size: 14px;
+	height: 80px;
+	transition: border-color 0.3s ease;
+}
+
+#submit {
+	width: 100%;
+	background-color: #4abc96;
+	padding: 12px;
+	border:none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease
+}
+
+
+
+
